@@ -25,6 +25,8 @@ class PlotInfo:
     setting: str
     conflict: str
 
+# primarily used within the context of large language models (LLMs) and agent frameworks, such as those provided by OpenAI. 
+# Its core functionality is to transform a standard Python function into a "tool" that an LLM or AI agent can understand, interpret, and invoke.
 @function_tool
 def generate_plot_twist(plot: str) -> str:
     """Generate a surprise plot twist for a given movie plot."""
