@@ -115,6 +115,4 @@ async def main():
    print(request_with_danger.final_output)
    print("-"*70)
    print(request_with_count.final_output)
-
-
-await main()
+   

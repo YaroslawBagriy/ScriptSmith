@@ -146,5 +146,4 @@ async def main():
         print(user_input.final_output)
     except InputGuardrailTripwireTriggered:
         print("Guardrail tripped: The input was flagged as fear-based.")
-
-await main()
+        
